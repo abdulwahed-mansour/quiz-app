@@ -56,7 +56,7 @@ export default function Home() {
               Question {currentQuestion + 1} of {questions.length}
             </h4>
             <div className="mt-4 text-2xl text-white">
-              {questions[currentQuestion].questionText}
+              {questions[currentQuestion].question}
             </div>
           </div>
           <div className="flex flex-col w-full">
